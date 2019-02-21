@@ -1,0 +1,10 @@
+#content {
+    display: inline-block;
+    align-content: center;
+}
+
+img {
+    display: inline;
+    width: 250px;
+    
+}

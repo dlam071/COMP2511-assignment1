@@ -1,31 +1,11 @@
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: ;
-    overflow: hidden;
-    background-color: #e70012;
-    text-align: center;
+#content {
+    display: inline-block;
+    align-content: center;
 }
 
-nav li {
-    float: left;
-    text-align: center;
-}
-
-nav li a {
-    display: block;
-    text-align: center;
-    color: white;
-    font-family: "Helvetica";
-    font-weight: bold;
-    text-align: center;
-    padding: 14px 80px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-nav li a:hover {
-    background-color: #FFFFFF;
-    color: #e70012;
+img {
+    display: inline;
+    width: 250px;
+    
 }
 
