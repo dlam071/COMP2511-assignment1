@@ -21,5 +21,64 @@
                 <li class="contact"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        
+        <main>
+            <h1>Contact Us</h1>
+                
+            <p>Do you have questions for us, or just want to drop a line? Fill out the form below.</p>
+            
+            <form action="mailto:contactus@switchd.com" method="get">
+                <p>
+                    <label>
+                        Subject: <span class="required">(required)</span>
+                        <br>
+                        <input type="text" name="subject" maxlength="45" required />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Comment <input type="radio" name="comment/concern" value="comment"/>
+                    </label>
+                    
+                    <label>
+                        Concern <input type="radio" name="comment/concern" value="concern"/>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Message: <span class="required">(required)</span>
+                        <br>
+                        <textarea name="Comment" rows="5" cols="50" required ></textarea>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Email: <span class="required">(required)</span>
+                        <br>
+                        <input type="text" placeholder="text" placeholder="abc@xyz.com" name="email" rows="5" cols="50" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Phone:
+                        <br>
+                        <input type="text" placeholder="123-123-1234" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="addToList" value="addToList" />Add me to your email list
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="addToList" value="addToList" />Contact me about special offers
+                    </label>
+                </p>
+                
+                <p> <input type="submit" value="submit"> <input type="reset" value="Clear"</p>
+            </form>
+        
+        </main>
     </body>
 </html>
