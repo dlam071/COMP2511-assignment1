@@ -1,9 +1,17 @@
 nav ul {
+<<<<<<< HEAD
     list-style-type: none;
     margin: 0;
     padding: ;
     overflow: hidden;
     background-color: #e70012;
+=======
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e70012;
+>>>>>>> 5ce6e34f9ce527e4ca9066a0b4e03af23e281046
 }
 
 nav li {
