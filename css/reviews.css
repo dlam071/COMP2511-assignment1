@@ -1,6 +1,27 @@
-img {
+main {
+    margin: 5% 15%;
+}
+
+td img {
     display: inline;
-    width: 250px;
+    width: 300px;
+    height: 190px;
     
 }
 
+td {
+    padding: 0px;
+    height: 300px;
+    width: 650px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    color: #e70012;
+    height: 5px;
+    background-color: #e70012;
+}
