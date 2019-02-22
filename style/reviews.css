@@ -37,3 +37,7 @@ hr {
     height: 5px;
     background-color: #e70012;
 }
+
+#partyText {
+    padding: 0px 400px;
+}
