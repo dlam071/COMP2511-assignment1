@@ -5,6 +5,10 @@ main {
     
 }
 
+table {
+    margin: auto;
+}
+
 td img {
     display: inline;
     width: 300px;
@@ -24,6 +28,7 @@ p {
 }
 
 h2 {
+    padding: 0px;
     text-align: center;
 }
 
