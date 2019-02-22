@@ -49,3 +49,19 @@ td {
 .title {
     font-weight: bold;
 }
+
+footer {
+    display: block;
+    background-color: #e70012;
+    text-align: center;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    padding-top: 30px;
+    font-family: "Helvetica";
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+}

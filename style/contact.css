@@ -2,6 +2,7 @@ main {
     margin: 5% 15%;
     font-family: "Helvetica";
     color: #6a6a6a;
+    padding-bottom: 60px;
 }
 
 hr {
@@ -28,6 +29,22 @@ main>p::first-letter {
 img {
     display: inline;
     float: right;
-    width: 500px;
+    width: 200px;
     height: ;
+}
+
+footer {
+    display: block;
+    background-color: #e70012;
+    text-align: center;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    padding-top: 30px;
+    font-family: "Helvetica";
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
 }
