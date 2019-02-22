@@ -1,3 +1,15 @@
+main {
+    margin: 5% 15%;
+    font-family: "Helvetica";
+    color: #6a6a6a;
+}
+
+hr {
+    height: 5px;
+    color: #e70012;
+    background-color: #e70012;
+}
+
 img {
     display: inline;
     width: 250px;
