@@ -2,10 +2,10 @@
 <html lang="en">
     <head>
         <title>Switch'd - Contact Info</title>
+        <meta charset="utf-8">
         <meta name="keywords" content="switch'd, contact us, contact info, email, social media">
         <meta name="description" content="Contact us via the multiple options presented below.">
         <meta name="author" content="Darren Lam and Mason Lee">
-        <meta charset="utf-8">
         
         <link rel="stylesheet" type="text/css" href="./style/contact.css" />
         <link rel="stylesheet" type="text/css" href="./style/nav.css" />
@@ -15,71 +15,73 @@
         <header>
             <nav>
                 <ul>
-                    <li class="logo"><img src="images/logo.png"/></li>
+                    <li class="logo"><img src="images/logo.png" alt="logo image"/></li>
                     <li class="home"><a href="main.html">Home</a></li>
                     <li class="about"><a href="about.html">About Switch</a></li>
                     <li class="reviews"><a href="reviews.html">Reviews</a></li>
-                    <li class="contact"><a href="contact.html">Contact</a></li>
+                    <li class="contact" id="here">Contact</li>
                 </ul>
             </nav>
         </header>
         <main>
-            <h1>Contact Us</h1>
-            <hr>
-            <p>Do you have questions for us, or just want to drop a line? Fill out the form below.</p>
-            <br>
-            <img src="images/darren.png" alt="Darren image">
-            <form action="mailto:contactus@switchd.com" method="get">
-                <p>
-                    <label>
-                        Subject: <span class="required">(required)</span>
-                        <br>
-                        <input type="text" name="subject" maxlength="45" required />
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        Comment <input type="radio" name="comment/concern" value="comment"/>
-                    </label>
-                    
-                    <label>
-                        Concern <input type="radio" name="comment/concern" value="concern"/>
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        Message: <span class="required">(required)</span>
-                        <br>
-                        <textarea name="Comment" rows="5" cols="50" required ></textarea>
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        Email: <span class="required">(required)</span>
-                        <br>
-                        <input type="text" placeholder="abc@xyz.com" name="email" rows="5" cols="50" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        Phone:
-                        <br>
-                        <input type="text" placeholder="123-123-1234" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" />
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        <input type="checkbox" name="addToList" value="addToList" />Add me to your email list
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        <input type="checkbox" name="addToList" value="addToList" />Contact me about special offers
-                    </label>
-                </p>
-                
-                <p> <input type="submit" value="Submit"> <input type="reset" value="Clear"></p>
-            </form>
+            <article>
+                <h1>Contact Us</h1>
+                <hr>
+                <p>Do you have questions for us, or just want to drop a line? Fill out the form below.</p>
+                <br>
+                <img src="images/darren.png" alt="Darren image">
+                <form action="mailto:contactus@switchd.com" method="get">
+                    <p>
+                        <label>
+                            Subject: <span class="required">(required)</span>
+                            <br>
+                            <input type="text" name="subject" maxlength="45" required />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Comment <input type="radio" name="comment/concern" value="comment"/>
+                        </label>
+
+                        <label>
+                            Concern <input type="radio" name="comment/concern" value="concern"/>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Message: <span class="required">(required)</span>
+                            <br>
+                            <textarea name="Comment" rows="5" cols="50" required ></textarea>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Email: <span class="required">(required)</span>
+                            <br>
+                            <input type="text" placeholder="abc@xyz.com" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Phone:
+                            <br>
+                            <input type="text" placeholder="123-123-1234" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" name="addToList" value="addToList" />Add me to your email list
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" name="addToList" value="addToList" />Contact me about special offers
+                        </label>
+                    </p>
+
+                    <p> <input type="submit" value="Submit"> <input type="reset" value="Clear"></p>
+                </form>
+            </article>
         </main>
         <footer>
             <p>Switch'd&copy;</p>
