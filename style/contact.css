@@ -10,7 +10,21 @@ hr {
     background-color: #e70012;
 }
 
+form {
+    display: inline;
+}
+
 .required {
     font-style: italic;
     color: #b1b1b1;
+}
+
+main>p::first-letter {
+    color: #e70012;
+    font-weight: bold;
+    font-size: 150%; 
+}
+
+img {
+    display: inline;
 }
