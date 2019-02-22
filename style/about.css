@@ -9,3 +9,43 @@ hr {
     color: #e70012;
     background-color: #e70012;
 }
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+figure img {
+    width: 80%;
+}
+figure {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    
+}
+
+figcaption::first-letter {
+    color: #e70012;
+    font-weight: bold;
+    font-size: 150%; 
+}
+
+table {
+    margin: auto
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 10px 20px;
+}
+
+.title {
+    font-weight: bold;
+}
