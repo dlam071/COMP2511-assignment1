@@ -50,6 +50,11 @@ td {
     font-weight: bold;
 }
 
+p a {
+    display: block;
+    text-align: center;
+}
+
 footer {
     display: block;
     background-color: #e70012;
