@@ -27,4 +27,7 @@ main>p::first-letter {
 
 img {
     display: inline;
+    float: right;
+    width: 500px;
+    height: ;
 }
