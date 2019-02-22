@@ -9,3 +9,8 @@ hr {
     color: #e70012;
     background-color: #e70012;
 }
+
+.required {
+    font-style: italic;
+    color: #b1b1b1;
+}
