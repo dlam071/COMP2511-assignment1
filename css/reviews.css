@@ -1,5 +1,8 @@
 main {
     margin: 5% 15%;
+    font-family: "Helvetica";
+    color: #6a6a6a;
+    
 }
 
 td img {
@@ -12,8 +15,12 @@ td img {
 td {
     padding: 0px;
     height: 300px;
-    width: 650px;
+    width: 600px;
     text-align: center;
+}
+
+p {
+    padding: 0px 100px;
 }
 
 h2 {
