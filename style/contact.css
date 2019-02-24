@@ -38,6 +38,12 @@ img {
     padding-top: 10%;
 }
 
+article>p::first-letter {
+    color: #e70012;
+    font-weight: bold;
+    font-size: 150%; 
+}
+
 footer {
     display: block;
     background-color: #e70012;
