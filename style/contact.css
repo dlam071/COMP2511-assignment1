@@ -33,8 +33,9 @@ main>p::first-letter {
 img {
     display: inline;
     float: right;
-    width: 200px;
-    height: ;
+    width: 400px;
+    padding-right: 15%;
+    padding-top: 10%;
 }
 
 footer {
